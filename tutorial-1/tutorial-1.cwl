@@ -44,7 +44,7 @@ $graph:
       envDef:
         PROJ_LIB: /srv/conda/envs/notebook/share/proj
   hints:
-    DockerRequirement
+    DockerRequirement:
       dockerPull: docker.io/osgeo/gdal:latest  
   baseCommand: 
   - gdal_translate
